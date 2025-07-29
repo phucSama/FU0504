@@ -12,7 +12,6 @@ void doCommand() {
     case (COMMAND_ID_CONFIG):
       changeConfig(command.data);
       if (command.target == COMMAND_TARGET_UART) LOG_LN(getConfig());
-      else if (command.target == COMMAND_TARGET_BLUETOOTH) SerialBT.println(getConfig());
       break;
 
     case (COMMAND_ID_MOVE):
