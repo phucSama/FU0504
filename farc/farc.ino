@@ -12,7 +12,6 @@ void setup() {
   robot_init();
 
   initPS2(); // Kết nối GamePad PS2
-  initSerialBT(); // Mở cổng Bluetooth nhận lệnh
 }
 /*--------------------------------*/
 void loop() {
