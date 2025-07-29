@@ -2,7 +2,6 @@
 #define farc_h
 
 #include <Arduino.h>
-#include <BluetoothSerial.h>
 #include "Log.h"
 #include "Config.h"
 #include "ViaBoard.h"
@@ -15,7 +14,6 @@
 
 //---------------------------------------------
 // Các biến toàn cục
-BluetoothSerial SerialBT;
 ViaBoard viaBoard = ViaBoard();
 uint8_t lastMoveState;
 
